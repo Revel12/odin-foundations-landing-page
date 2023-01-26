@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px 200px 200px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.nav .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .head {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.container .left{
+    width: 35%;
+    padding-right: 20px;
+}
+
+.container .secondary {
+    margin-bottom: 20px;
+}
+
+.pizza-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container .left button {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 200px 200px 200px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800px;
+    color: #1F2937;
+    padding: 50px 0;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.info-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px 200px 150px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.call-section {
+    padding: 100px 200px 100px 200px;
+}
+
+.call-container {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    padding: 30px 75px;
+    color: white;
+    justify-content: space-between;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.call-header {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.call-container button {
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 50px 0;
+}
+
+.footer div {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
